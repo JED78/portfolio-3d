@@ -1,5 +1,14 @@
+:host {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0; /* fondo */
+  pointer-events: none; /* para que no bloquee clics */
+}
+
 canvas {
-  width: 300px;
-  height: 300px;
+  width: 100%;
+  height: 100%;
   display: block;
 }
